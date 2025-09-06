@@ -1,0 +1,48 @@
+name: el_escondite_animal
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  fluttertoast: ^8.2.12
+  dio: ^5.8.0+1
+  shared_preferences: ^2.2.0
+  fl_chart: ^0.65.0  
+  intl: ^0.18.1
+  table_calendar: ^3.0.9
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imagen/accesorios.png
+    - assets/imagen/camas.png
+    - assets/imagen/comidas.png
+    - assets/imagen/fondo.jpeg
+    - assets/imagen/gato_perfil.png
+    - assets/imagen/gato-flutter.png
+    - assets/imagen/juguetes.png
+    - assets/imagen/logo.png
+    - assets/imagen/perro_perfil.png
+    - assets/imagen/principal.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/imagen/logo.png"
